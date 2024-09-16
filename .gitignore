@@ -1,0 +1,54 @@
+# Compiled output
+/dist
+/out-tsc
+/tmp
+/.tmp
+/coverage
+
+# Dependencies
+/node_modules
+
+# IDEs and editors
+.vscode
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Environment files
+.env
+.env.*.local
+
+# Angular build output
+.angular
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional cache directories
+/.cache
+/.parcel-cache
+
+# Miscellaneous
+*.swp
+*.swo
+*.swn
+*.pid
+*.seed
+
+# Optional yarn directory
+.yarn
+
+# Optional pnpm directory
+.pnpm
