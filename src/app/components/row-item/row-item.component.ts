@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Item } from '../../models/item';
 
 @Component({
   selector: 'app-row-item',
@@ -8,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class RowItemComponent {
 
+  @Input() item: Item = new Item();
+  
 }
