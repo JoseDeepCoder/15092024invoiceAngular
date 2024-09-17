@@ -13,8 +13,14 @@ export class InvoiceService {
   constructor() { }
 
   getInvoice(): Invoice {
+    //const total = this.calculateTotal();
+    this.invoice.total =this.calculateTotal();
+    //return {... this.invoice, total};
     return this.invoice;
   }
 
+  calculateTotal() {
+    return this.invoice.items.reduce((calculator, item )=> calculator + (item.price*item.quantity), 0);
+  }
 
 }
