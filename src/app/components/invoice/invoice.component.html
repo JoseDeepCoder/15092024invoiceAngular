@@ -18,7 +18,7 @@
         (removeEventEmitter)="removeItem($event)"
       />
       <app-total [total]="invoice.total" />
-      <app-form-item></app-form-item>
+      <app-form-item (addItemEventEmitter)="addItem($event)"></app-form-item>
     </div>
   </div>
 </div>
