@@ -7,11 +7,12 @@ import { CompanyViewComponent } from '../company-view/company-view.component';
 import { ListItemsComponent } from '../list-items/list-items.component';
 import { RowItemComponent } from '../row-item/row-item.component';
 import { TotalComponent } from '../total/total.component';
+import { FormItemComponent } from '../form-item/form-item.component';
 
 @Component({
   selector: 'app-invoice',
   standalone: true,
-  imports: [ClientViewComponent, CompanyViewComponent, ListItemsComponent,  InvoiceViewComponent, TotalComponent],
+  imports: [ClientViewComponent, CompanyViewComponent, ListItemsComponent,  InvoiceViewComponent, TotalComponent, FormItemComponent],
   templateUrl: './invoice.component.html'
 })
 export class InvoiceComponent implements OnInit {
