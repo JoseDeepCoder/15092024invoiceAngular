@@ -20,5 +20,10 @@
       <app-total [total]="invoice.total" />
       <app-form-item (addItemEventEmitter)="addItem($event)"></app-form-item>
     </div>
+    <div>
+      <button class="btn btn-danger btn-sm" (click)="downloadPdf()">
+        Descargar PDF
+      </button>
+    </div>
   </div>
 </div>
